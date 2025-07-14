@@ -1,0 +1,56 @@
+[
+  {
+    "nome": "LaVaca",
+    "preço": "R$ 15,00",
+    "imagem": "lavaca.jpg",
+    "tipo": "secret"
+  },
+  {
+    "nome": "Sammy Spyder",
+    "preço": "R$ 18,00",
+    "imagem": "sammyspyder.jpg",
+    "tipo": "secret"
+  },
+  {
+    "nome": "Tralalelitos",
+    "preço": "R$ 20,00",
+    "imagem": "tralalelitos.jpg",
+    "tipo": "secret"
+  },
+  {
+    "nome": "Medussy",
+    "preço": "R$ 35,00",
+    "imagem": "medussy.jpg",
+    "tipo": "secret"
+  },
+  {
+    "nome": "La Grande Combination",
+    "preço": "R$ 50,00",
+    "imagem": "lagrandecombination.jpg",
+    "tipo": "secret"
+  },
+  {
+    "nome": "Tralalero Tralala",
+    "preço": "R$ 3,00",
+    "imagem": "tralalerotralala.jpg",
+    "tipo": "god"
+  },
+  {
+    "nome": "Odin Din Din Dun",
+    "preço": "R$ 5,00",
+    "imagem": "odindindindun.jpg",
+    "tipo": "god"
+  },
+  {
+    "nome": "Trenostruzzo",
+    "preço": "R$ 8,00",
+    "imagem": "trenostruzzo.jpg",
+    "tipo": "god"
+  },
+  {
+    "nome": "Unclito",
+    "preço": "R$ 10,00",
+    "imagem": "unclito.jpg",
+    "tipo": "god"
+  }
+]
