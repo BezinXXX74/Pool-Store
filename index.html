@@ -1,62 +1,56 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Pool Store - Tabela de Preços</title>
-  <link rel="stylesheet" href="style.css">
-  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap" rel="stylesheet">
-</head>
-<body>
-  <div class="container">
-    <h1 class="titulo">tabela de<br>preços</h1>
-    
-    <section>
-      <h2 class="secao">BRAINROTS SECRETS</h2>
-      <div class="produtos" id="secrets"></div>
-    </section>
-
-    <section>
-      <h2 class="secao">BRAINROTS GODS</h2>
-      <div class="produtos" id="gods"></div>
-    </section>
-
-    <div class="avisos">
-      <div class="aviso">
-        <span>✔ Aceitamos apenas PIX</span>
-        <span>✔ NÃO fazemos trocas!!</span>
-      </div>
-      <div class="discord">
-        <img src="imagens/discord.png" alt="Discord" class="discord-icon">
-        <span>Negociações à parte no discord:<br>
-        <a href="https://discord.gg/t9pD8YZdXn" target="_blank">https://discord.gg/t9pD8YZdXn</a></span>
-      </div>
-    </div>
-
-    <footer>
-      <span class="arroba">@poolstoree</span>
-      <img src="imagens/mascote.png" alt="Mascote PoolStore" class="mascote">
-    </footer>
-  </div>
-  <script>
-    fetch('produtos.json')
-      .then(response => response.json())
-      .then(produtos => {
-        const secrets = produtos.filter(p => p.tipo === 'secret');
-        const gods = produtos.filter(p => p.tipo === 'god');
-        const criarCard = (p) => `
-          <div class="produto">
-            <img src="imagens/${p.imagem}" alt="${p.nome}">
-            <div class="info">
-              <span class="nome">${p.nome}</span>
-              <span class="preco">${p.preco}</span>
-            </div>
-            <a href="https://discord.gg/t9pD8YZdXn" target="_blank" class="botao-comprar">Comprar</a>
-          </div>
-        `;
-        document.getElementById('secrets').innerHTML = secrets.map(criarCard).join('');
-        document.getElementById('gods').innerHTML = gods.map(criarCard).join('');
-      });
-  </script>
-</body>
-</html>
+[
+  {
+    "nome": "LaVaca",
+    "preco": "R$ 15,00",
+    "imagem": "lavaca.jpg",
+    "tipo": "secret"
+  },
+  {
+    "nome": "Sammy Spyder",
+    "preco": "R$ 18,00",
+    "imagem": "sammyspyder.jpg",
+    "tipo": "secret"
+  },
+  {
+    "nome": "Tralalelitos",
+    "preco": "R$ 20,00",
+    "imagem": "tralalelitos.jpg",
+    "tipo": "secret"
+  },
+  {
+    "nome": "Medussy",
+    "preco": "R$ 35,00",
+    "imagem": "medussy.jpg",
+    "tipo": "secret"
+  },
+  {
+    "nome": "La Grande Combination",
+    "preco": "R$ 50,00",
+    "imagem": "lagrandecombination.jpg",
+    "tipo": "secret"
+  },
+  {
+    "nome": "Tralalero Tralala",
+    "preco": "R$ 3,00",
+    "imagem": "tralalerotralala.jpg",
+    "tipo": "god"
+  },
+  {
+    "nome": "Odin Din Din Dun",
+    "preco": "R$ 5,00",
+    "imagem": "odindindindun.jpg",
+    "tipo": "god"
+  },
+  {
+    "nome": "Trenostruzzo",
+    "preco": "R$ 8,00",
+    "imagem": "trenostruzzo.jpg",
+    "tipo": "god"
+  },
+  {
+    "nome": "Unclito",
+    "preco": "R$ 10,00",
+    "imagem": "unclito.jpg",
+    "tipo": "god"
+  }
+]
