@@ -46,7 +46,7 @@
         const gods = produtos.filter(p => p.tipo === 'god');
         const criarCard = (p) => `
           <div class="produto">
-            <img src="imagens/${p.imagem}" alt="${p.nome}">
+            <img src="images/${p.imagem}" alt="${p.nome}">
             <div class="info">
               <span class="nome">${p.nome}</span>
               <span class="preco">${p.preco}</span>
@@ -55,4 +55,8 @@
           </div>
         `;
         document.getElementById('secrets').innerHTML = secrets.map(criarCard).join('');
-        document.getElementBy
+        document.getElementById('gods').innerHTML = gods.map(criarCard).join('');
+      });
+  </script>
+</body>
+</html>
