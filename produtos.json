@@ -52,5 +52,11 @@
     "preco": "R$ 10,00",
     "imagem": "unclito.jpg",
     "tipo": "god"
+  },
+  {
+    "nome": "hostpost",
+    "preco": "R$ 25,00",
+    "imagem": "hostpost.jpg",
+    "tipo": "secret"
   }
 ]
