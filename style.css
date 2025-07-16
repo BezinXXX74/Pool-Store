@@ -1,5 +1,5 @@
 body {
-  background: #f7f7f7;
+  background: #f7faff;
   font-family: 'Quicksand', Arial, sans-serif;
   margin: 0;
   padding: 0;
@@ -16,7 +16,7 @@ body {
 
 .titulo {
   font-size: 3rem;
-  color: #e2a23b;
+  color: #3b7be2;
   text-align: center;
   font-family: 'Quicksand', Arial, sans-serif;
   margin-bottom: 24px;
@@ -24,7 +24,7 @@ body {
 }
 
 .secao {
-  color: #e2a23b;
+  color: #3b7be2;
   font-size: 1.2rem;
   margin-top: 32px;
   margin-bottom: 16px;
@@ -40,7 +40,7 @@ body {
 }
 
 .produto {
-  background: #f9f6f2;
+  background: #f2f6f9;
   border-radius: 16px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.04);
   padding: 16px;
@@ -56,7 +56,7 @@ body {
   object-fit: cover;
   border-radius: 12px;
   margin-bottom: 10px;
-  border: 2px solid #e2a23b;
+  border: 2px solid #3b7be2;
 }
 
 .info {
@@ -73,13 +73,13 @@ body {
 }
 
 .preco {
-  color: #e2a23b;
+  color: #3b7be2;
   font-size: 1.1rem;
   font-weight: bold;
 }
 
 .botao-comprar {
-  background: #e2a23b;
+  background: #3b7be2;
   color: #fff;
   border: none;
   border-radius: 8px;
@@ -94,7 +94,7 @@ body {
 }
 
 .botao-comprar:hover {
-  background: #c98c2b;
+  background: #2b5cc9;
 }
 
 .avisos {
@@ -103,8 +103,8 @@ body {
 }
 
 .aviso {
-  background: #ffe3b0;
-  color: #e2a23b;
+  background: #b0d0ff;
+  color: #3b7be2;
   border-radius: 12px;
   padding: 10px 0;
   font-weight: bold;
@@ -115,7 +115,7 @@ body {
 }
 
 .discord {
-  background: #ffe3b0;
+  background: #b0d0ff;
   color: #222;
   border-radius: 12px;
   padding: 10px 0;
