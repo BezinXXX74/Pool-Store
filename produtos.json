@@ -55,7 +55,7 @@
   },
   {
     "nome": "hostpost",
-    "preco": "R$ 25,00",
+    "preco": "R$ 35,00",
     "imagem": "hostpost.jpg",
     "tipo": "secret"
   }
